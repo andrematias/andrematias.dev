@@ -1,0 +1,144 @@
+:root {
+    --color-primary: rgb(199, 132, 8);
+    --color-primary-hover: rgb(199, 132, 8);
+    --color-border: rgb(199, 132, 8);
+    --color-callout: #1e90ff;
+    --color-text: #232333;
+    --color-text-muted: #737373;
+    --color-text-meta: #999999;
+    --color-background: #ffffff;
+    --color-background-code: #f1f1f1;
+    --color-background-pre: #ececec;
+    --color-background-toc: #ececec;
+    --color-background-draft: #f9f2f4;
+    --color-primary-dark: rgb(199, 132, 8);
+    --color-primary-hover-dark: rgb(199, 132, 8);
+    --color-border-dark: rgb(199, 132, 8);
+    --color-text-dark: #ffffff;
+    --color-text-muted-dark: #dddddd;
+    --color-background-dark: #202124;
+    --color-background-code-dark: #3a3a3a;
+    --color-background-pre-dark: #272822;
+    --color-background-toc-dark: #272822;
+    --color-background-draft-dark: #0066ff;
+    --content-max-width: 1024px;
+    --content-padding: 1ch;
+    --border-radius: 5px;
+    --font-size-base: 15px;
+    --line-height-base: 1.6;
+    --line-height-content: 1.5;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("../fonts/Roboto/Roboto-Black.ttf");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Roboto Mono Bold";
+    src: url("../fonts/Roboto/RobotoMono-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../fonts/Roboto/RobotoMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "iA";
+    src: url("../fonts/iA-Fonts/iAWriterMonoS-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    letter-spacing: 0.0005rem;
+    line-height: 28px;
+}
+
+i {
+    font-family: iA, monospace;
+}
+
+b,
+strong {
+    font-family: "Roboto Mono Bold", monospace;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: "Roboto Black";
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.5em;
+    font-family: "Roboto Bold";
+    font-weight: bold;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    border-bottom: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--color-primary);
+    background-color: transparent;
+    outline: none;
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    line-height: var(--line-height-content, 1.5);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.site-description p {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+header {
+    margin-bottom: 0em;
+}
+
+footer {
+    border-top: 0.4rem dashed var(--color-border, #663399);
+    border-block-start: 0.2rem dashed var(--color-border, #663399);
+}

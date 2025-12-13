@@ -1,0 +1,44 @@
+baseURL = 'https://andrematias.dev'
+languageCode = 'pt-br'
+title = 'André Matias'
+theme = 'archie'
+copyright = "© andrematias.dev"
+pygmentsstyle = "xcode"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+  pagerSize = 3
+
+[params]
+	mode="toggle"
+	useCDN=false
+	subtitle = "Todos somos amadores"
+	mathjax = true 
+	katex = true
+	customcss = ["css/custom.css"]
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/andrematias"
+
+[[menu.main]]
+name = "inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "sobre"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 4
