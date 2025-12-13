@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true
 	mode="toggle"
 	useCDN=false
 	subtitle = "Todos somos amadores"
-	mathjax = true 
+	mathjax = false 
 	katex = true
 	customcss = ["css/custom.css"]
 
