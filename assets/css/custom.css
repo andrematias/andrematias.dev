@@ -161,3 +161,9 @@ footer {
     background: #4eaa25;
     color: #ffffff;
 }
+
+.tags a {
+    border: none !important;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.2s ease;
+}
