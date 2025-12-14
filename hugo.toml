@@ -3,7 +3,7 @@ languageCode = 'pt-br'
 title = 'André Matias'
 theme = 'archie'
 copyright = "© andrematias.dev"
-pygmentsstyle = "xcode"
+pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 

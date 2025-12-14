@@ -142,3 +142,17 @@ footer {
     border-top: 0.4rem dashed var(--color-border, #663399);
     border-block-start: 0.2rem dashed var(--color-border, #663399);
 }
+
+.highlight {
+    background-color: transparent; 
+}
+
+.highlight pre code[class*="language-"]::before {
+    border-radius: 0.25rem;
+}
+
+.highlight pre code[class*="language-shell"]::before, .highlight pre code[class*="language-bash"]::before, .highlight pre code[class*="language-sh"]::before {
+    content: "shell";
+    background: #4eaa25;
+    color: #ffffff;
+}
