@@ -7,6 +7,9 @@ pygmentsstyle = "xcode"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [pagination]
   pagerSize = 3
 
